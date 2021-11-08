@@ -1,0 +1,73 @@
+@media only screen and (max-width: 980px) {
+    .container {
+      max-width: 700px;
+      padding: 0 15px;
+    }
+    main.container {
+      padding-top: 130px;
+    }
+    .main-section {
+      max-width: 300px;
+    }
+    .work {
+      width: 100%;
+    } 
+    .auth-image {
+      width: 80%;
+      margin-bottom: 15px;
+    }
+  } 
+  @media only screen and (max-width: 768px) {
+    .main-section,
+    .sidebar {
+      max-width: 100%;
+    }
+    main {
+      overflow: auto;
+    }
+    .work {
+      width: 40%;
+      margin-bottom: 10px;
+    }
+    .work:nth-child(even) {
+      margin-right: 0;
+    }
+    .work:nth-child(odd) {
+      float: right;
+    }
+    .auth-image {
+      width: 70%;
+    }
+    .sidebar {
+      margin-bottom: 20px;
+      float: right;
+      width: 70%;
+    }
+  }
+  @media only screen and (max-width: 640px) {
+    #masthead {
+      position: static;
+      margin-bottom: 20px;
+    }
+    header .container {
+      padding: 10px;
+    }
+    main.container {
+      padding-top: 10px;
+    }
+    #logo,
+    .work,
+    .auth-image {
+      width:70%;
+    }
+    nav {
+      width: 90%;
+      margin: 25px 0;
+      text-align: center;
+    }
+    nav a {
+      width: 30%;
+      padding-left: 10px;
+      margin-left: 20px;
+    }
+  }
